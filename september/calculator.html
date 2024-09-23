@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <style>
+   #demo{
+ width: 100%;
+ height: 100%;
+ background-image: url(/a1.webp);
+ background-size: cover;
+ }
+
+ #box{
+ width: 320px;
+ padding:  30px;
+margin-top: 80px;
+margin-left: 300px;
+ background-color: rgb(172, 218, 99);
+ border: 5px solid black;
+ }
+
+ #txtbox{
+ width: 300px;
+ height: 50px;
+ font-size: 30px;
+ font-weight: bold;
+ background-color: whitesmoke;
+ padding: 10px;
+ margin-bottom: 20px;
+ }
+
+  button{
+padding: 10px;
+font-size: 30px;
+color:  whitesmoke;
+margin: 10px;
+background-color: rgb(43, 15, 15);
+border-radius: 50%;
+  }   
+
+ </style>  
+
+ <script>
+
+   function dataRomove(){
+  let a=document.getElementById('txtbox').value;
+  let mylen=a.length;
+  let ans=a.slice(0 , mylen-1);
+  document.getElementById('txtbox').value=ans;
+ }    
+
+</script>   
+</head>
+<body id="demo">
+    
+    <div id="box">
+
+     <input type="text" id="txtbox">
+     <button id ="btn1" onclick="document.getElementById('txtbox').value+=document.getElementById('btn1').innerHTML">1</button>
+     <button id ="btn2" onclick="document.getElementById('txtbox').value+=document.getElementById('btn2').innerHTML">2</button>
+     <button id ="btn3" onclick="document.getElementById('txtbox').value+=document.getElementById('btn3').innerHTML">3</button>
+     <button id ="btn4" onclick="document.getElementById('txtbox').value+=document.getElementById('btn4').innerHTML">4</button>
+     <button id ="btn5" onclick="document.getElementById('txtbox').value+=document.getElementById('btn5').innerHTML">5</button>
+     <button id ="btn6" onclick="document.getElementById('txtbox').value+=document.getElementById('btn6').innerHTML">6</button>
+     <button id ="btn7" onclick="document.getElementById('txtbox').value+=document.getElementById('btn7').innerHTML">7</button>
+     <button id ="btn8" onclick="document.getElementById('txtbox').value+=document.getElementById('btn8').innerHTML">8</button>
+     <button id ="btn9" onclick="document.getElementById('txtbox').value+=document.getElementById('btn9').innerHTML">9</button>
+     <button id ="btn0" onclick="document.getElementById('txtbox').value+=document.getElementById('btn0').innerHTML">0</button>
+     <button id ="btnplus" onclick="document.getElementById('txtbox').value+=document.getElementById('btnplus').innerHTML">+</button>
+     <button id ="btnminus" onclick="document.getElementById('txtbox').value+=document.getElementById('btnminus').innerHTML">-</button>
+     <button id ="btnmul" onclick="document.getElementById('txtbox').value+=document.getElementById('btnmul').innerHTML">*</button>
+     <button id ="btndiv" onclick="document.getElementById('txtbox').value+=document.getElementById('btndiv').innerHTML">/</button>
+     <button onclick="document.getElementById('txtbox').value=eval(document.getElementById('txtbox').value)">=</button>
+    <button onclick="document.getElementById('txtbox').value=' ' ">AC</button>
+    <button onclick="dataRomove()">X</button>
+    </div> 
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</head>

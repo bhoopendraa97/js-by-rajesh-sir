@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+    /* function display() {
+    let btnObj=document.createElement("button");
+    btnObj.innerHTML="save!!";
+    document.body.appendChild(btnObj);      // append means judna create element---------
+   }   */
+
+ /* function display(){
+  let myObj=document.createElement("h1");
+  myObj.innerHTML="welcome to cybrome!!";
+   document.getElementById("demo").appendChild(myObj);
+}   */
+
+/*    function addmoreText(){
+let obj=document.createElement("p");
+obj.innerHTML="Enter subject: <input type='Text'> ";
+ document.getElementById("demo").appendChild(obj);
+}    */
+
+ /*  function display(){
+   document.getElementById("demo").remove();
+}  */
+
+  function addmoreText(){
+let obj=document.createElement("p");
+obj.innerHTML="Enter city: <input type ='Text'> ";   //asseiment to Home-----
+ document.getElementById("demo").appendChild(obj);
+}  
+
+  function display(){
+  let obj= document.createElement("p");
+   obj.innerHTML="Enter city:<input type= 'Text>'";      
+   document.getElementById("demo").remove(obj);
+}   
+   
+    </script>
+
+   <style>
+ #one{
+   width: 350px;
+  padding: 80px;
+   border: 5px solid black;
+   margin: 80px;
+  }   
+    
+ </style>
+ 
+
+</head>
+<body bgcolor="yellow">
+
+ <!----- <button onclick="display()">click here!</button> --->
+ 
+ <!----<button onclick="display()">click here!</button> 
+<br> <br>
+<div id="demo"></div> -------->
+
+ <!----- <button onclick="addmoreText()">click here!!</button>
+  <br>
+ <p id="demo">Enrer subject:<input type="text"></p>----> 
+
+ <!---- <button onclick="display()">click here!!</button>
+ <h1 id="demo"> Welcome to cybrome</h1>  ------>
+
+   <button onclick="addmoreText()">Add!!</button>
+   <div id="one">
+    <p id="demo">Enter City:<input type="text"></p>
+    <button onclick="display()">x</button> 
+  
+
+
+  </div>  
+  
+</body>
+</html>
