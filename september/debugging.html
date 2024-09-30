@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+<!----  <button onclick="display()">click here!!!</button>  ----->
+
+
+ <!----   Enter num1: <input type="text" id="no1">
+ <br><br>
+ Enter num2: <input type="text" id="no2">
+ <br><br>
+ <button onclick="display()">click here!</button>
+ <h1 id="ans">My Answer</h1>
+  <h2 id="ans1"></h2>--->
+  
+
+
+    <script>
+        function display(){
+            var a=123
+            var b=0;
+
+            try{
+                if(b==0){
+                    throw "not divide by zero"
+                }
+                else{
+                document.getElementById("demo").innerHTML+=
+                '<br> Division of' +a+ '  by ' +b+ " = "+a/b;
+                }
+            }
+            catch(e){
+                alert(e);
+            }
+         
+         } 
+
+ /* function display(){
+   let c;
+    try{
+        let a=document.getElementById("no1").value;
+        let b=document.getElementById("no2").value;
+         if(isNaN(a) || isNaN(b)){
+            throw "Not use strings value"
+         }
+         else{
+            if(b==0){
+                throw "Not Devide by Zero";
+            } 
+            else{
+                c=a/b;
+                document.getElementById("ans").innerHTML="Division: " +c;
+            }
+         }
+    } catch (error){
+        document.getElementById("ans").innerHTML=error;
+    }
+    finally{
+        document.getElementById("ans1").innerHTML="This always execte! Answer : "+c;
+    }
+}  */
+
+
+    </script>
+    
+</body>
+</html>
