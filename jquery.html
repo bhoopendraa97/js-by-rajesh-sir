@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!--- <p>Welcome to Cybrom</p>
+     <p>We Are devloper From bhopal</p>
+     <p>Hello Frinds Welcome to it works</p>
+     <p>we learn Java script and react js techonolgy</p> ---->
+
+
+ <!----- <button id="shw">Show</button>
+      <button id="hid">Hide</button>
+      <div id="box">Paragraphs help organize ideas in a logical order and 
+        guide the reader through the writing. 
+        They also show where sections of a research paper begin and end</div> ----->
+
+  <!----    <button>Toggle BOx</button>
+      <div id="box">Paragraphs help organize ideas in a logical order
+         and guide the reader through the writing. They also show where sections of a
+          research paper begin and end</div>--->
+
+  <!----- <button>Slide up</button>
+          <div id="box">Paragraphs help organize ideas in a logical order
+             and guide the reader through the writing. They also show where sections of a
+              research paper begin and end</div>-------->
+
+   <!-----  <button>Slide up</button>
+          <div id="box">Paragraphs help organize ideas in a logical order
+             and guide the reader through the writing. They also show where sections of a
+              research paper begin and end</div>  --------->
+
+              <button>Start Animation</button>
+              <p>By default,all HTML element have a static position, and cannot be moved.</p>
+              <div style="background: #98bf21; height: 100px; position: absolute;">
+
+              </div>
+      
+          <style>
+     /*      #box{
+               width: 100%;
+               padding: 20px;
+               border: 3px solid red;
+               background-color: pink;
+            }     */
+              
+     /*       #box{
+               width: 100%;
+               padding: 20px;
+               border: 3px solid red;
+               background-color: pink;
+               display: none;
+              }  */
+       
+           
+              
+
+
+
+          </style>
+
+
+
+
+   <script src="jquery.js"></script>
+<script>
+  /*    $(document).ready(function(){
+        $("p").click(function(){
+            $(this).hide(3000);
+        })
+      });  */
+
+
+   /*      $(document).ready(function(){
+          $("#shw").click(function(){
+           $("#box").show(3000);
+          })
+          $("#hid").click(function(){
+              $("#box").hide(3000);
+             })
+         });   */
+
+
+     /*    $(document).ready(function(){
+           $("button").click(function(){
+            $("#box").toggle(3000);
+           })
+         });  */
+
+  /*       $(document).ready(function(){
+           $("button").click(function(){
+            $("#box").slideUp(3000);
+           })
+         });  */
+
+   /*      $(document).ready(function(){
+           $("button").click(function(){
+            $("#box").slideDown(3000);
+           })
+         });    */
+
+       $(document).ready(function(){
+        $("button").click(function(){
+           $("div").animate({left: '250px'});
+        });
+       });
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

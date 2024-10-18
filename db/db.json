@@ -1,0 +1,61 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "rollno": 123,
+      "name": "sachin",
+      "City": "Bhopal",
+      "fees": 35000
+    },
+    {
+      "id": "2",
+      "rollno": 124,
+      "name": "raj",
+      "City": "satna",
+      "fees": 35000
+    },
+    {
+      "id": "3",
+      "rollno": 125,
+      "name": "sumit",
+      "City": "jabalpur",
+      "fees": 36000
+    },
+    {
+      "id": "b880"
+    },
+    {
+      "id": "d904"
+    },
+    {
+      "id": "5dd3"
+    },
+    {
+      "id": "e764"
+    },
+    {
+      "id": "6aad"
+    },
+    {
+      "id": "1e1d"
+    },
+    {
+      "id": "1d2a"
+    },
+    {
+      "id": "cf18"
+    },
+    {
+      "id": "1c46"
+    },
+    {
+      "id": "29c4"
+    },
+    {
+      "id": "a35a"
+    },
+    {
+      "id": "d135"
+    }
+  ]
+}

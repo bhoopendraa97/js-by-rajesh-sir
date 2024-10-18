@@ -1,0 +1,111 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "rollno": 123,
+      "name": "sachin",
+      "City": "Bhopal",
+      "fees": 35000
+    },
+    {
+      "id": "2",
+      "rollno": 124,
+      "name": "raj",
+      "City": "satna",
+      "fees": 35000
+    },
+    {
+      "id": "3",
+      "rollno": 125,
+      "name": "sumit",
+      "City": "jabalpur",
+      "fees": 36000
+    },
+    {
+   
+    }
+  ]
+}
+
+{
+  "student": [
+    {
+      "rollno": 123,
+      "name": "sachin",
+      "city": "Bhopal",
+      "fees": 34000,
+      "id": "545b"
+    },
+    {
+      "rollno": 124,
+      "name": "raj",
+      "city": "satna",
+      "fees": 35000,
+      "id": "6dfd"
+    },
+    {
+      "rollno": 125,
+      "name": "sumit",
+      "city": "jabalpur",
+      "fees": 36000,
+      "id": "2b1f"
+    },
+    {
+      "rollno": 126,
+      "name": "bhanu",
+      "city": "ratlaam",
+      "fees": 38000,
+      "id": "e6c1"
+    },
+    {
+      "id": "f5dc"
+    }
+  ],
+  "result": [
+    {
+      "rollno": 121,
+      "grade": "A",
+      "Marks": 340,
+      "id": "c3f9"
+    },
+    {
+      "rollno": 123,
+      "grade": "B",
+      "Marks": 344,
+      "id": "02e2"
+    },
+    {
+      "rollno": 123,
+      "grade": "C",
+      "Marks": 346,
+      "id": "609d"
+    }
+  ],
+  "subject": [
+    {
+      "Math": 85,
+      "result": "pass",
+      "id": "d2c6"
+    },
+    {
+      "science": 80,
+      "result": "pass",
+      "id": "f10c"
+    },
+    {
+      "Hindi": 82,
+      "result": "pass",
+      "id": "b415"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
